@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-pairing-groups",
+  "version": "1.0.0",
+  "description": "Minimal WhatsApp pairing code generator with group UID fetcher",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "pairing-code",
+    "groups",
+    "uid"
+  ],
+  "author": "WALEED KHAN",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "chalk": "^4.1.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.21.2",
+    "pino": "^9.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
